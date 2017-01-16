@@ -22,4 +22,4 @@ Everyone can modified it except for the already existing codes
 * <a href="https://zh.wikipedia.org/wiki/Template:%E5%B9%BF%E5%B7%9E%E5%9C%B0%E9%93%81%E6%A0%87%E5%BF%97%E8%89%B2" target="_blank">`维基百科`模版：广州地铁标志色</a>
 * <a href="https://zh.wikipedia.org/wiki/Template:%E5%B9%BF%E5%B7%9E%E5%9C%B0%E9%93%81%E8%BD%A6%E7%AB%99%E7%BC%96%E5%8F%B7" target="_blank">`维基百科`模版：广州地铁车站编号</a>
 * Github提供的免费代码仓库
-本项目使用 **`MIT licence `**
+本项目使用 **`MIT license `**
