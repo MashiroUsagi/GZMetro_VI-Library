@@ -1,0 +1,837 @@
+<head>
+	<title>广州地铁地铁站点导向指引系统DEMO</title>
+	<link rel="stylesheet" href="css/gzmtr.css">
+	<style>
+		h1,h2,h3{font-weight: lighter}
+		.navbar{position: fixed;top:0;left:0;width:100%;height:50px;background-color: #C42453}
+		.head{display:inline;color: #fff;line-height:2em;margin-left:20px;}
+		.nav{margin-top:10px;display:inline-block;line-height:2em;float:right;margin-right: 20px}
+		.nav a{color:#fff}
+		.nav a:hover{color:#ddd}
+		.tipsname{color: #000;text-align: center;font-size: 1em;-webkit-margin-before: 0em;-webkit-margin-after: 0em;}
+		.tipsub{color: #000;font-size: 0.3em;text-align:center;-webkit-margin-before: 0em;}
+		.pcs-cont{width: 100%;overflow-y:hidden;overflow-x:scroll;clear:both;white-space: nowrap}
+	</style>
+</head>
+<body>
+	<div class="navbar">
+		<h2 class="head">广州地铁站点导向指引系统（CSS实现版本）</h2>
+			<div class="nav">
+				<a href="#Route">路线标志</a>&#12288;&#12288;
+				<a href="#StaNum">车站编号</a>&#12288;&#12288;
+				<a href="#PlatNum">站台</a>&#12288;&#12288;
+				<a href="#ScrDoorNum">屏蔽门</a>&#12288;&#12288;
+				<a href="#Color">标志色</a>&#12288;&#12288;
+				<a href="#about">关于</a>&#12288;&#12288;
+			</div>
+	</div>
+	<div id="Route" style="padding-top:50px ">
+		<h2>路线标志</h2>
+		<hr>
+		<h3>示例</h3>
+		<div class="pcs-cont" style="display: inline-block">
+			<div style="display: inline-block;padding-right: 5px">
+					<p class="tipsname">已建成</p>
+					<p class="tipsub">Construction<br>completed</p>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line1" title="广州地铁1号线">
+					<p class="RouteName">1号线</p>
+					<p class="RouteSub">Line 1</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line2" title="广州地铁2号线">
+					<p class="RouteName">2号线</p>
+					<p class="RouteSub">Line 2</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line3" title="广州地铁3号线">
+					<p class="RouteName">3号线</p>
+					<p class="RouteSub">Line 3</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line4" title="广州地铁4号线">
+					<p class="RouteName">4号线</p>
+					<p class="RouteSub">Line 4</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line5" title="广州地铁5号线">
+					<p class="RouteName">5号线</p>
+					<p class="RouteSub">Line 5</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line6" title="广州地铁6号线">
+					<p class="RouteName">6号线</p>
+					<p class="RouteSub">Line 6</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line7" title="广州地铁7号线">
+					<p class="RouteName">7号线</p>
+					<p class="RouteSub">Line 7</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line8" title="广州地铁8号线">
+					<p class="RouteName">8号线</p>
+					<p class="RouteSub">Line 8</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-LineGF" title="广佛地铁">
+					<p class="RouteName">广佛线</p>
+					<p class="RouteSub">Guangfo Line</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-LineAPM" title="广佛地铁">
+					<p class="RouteName">APM线</p>
+					<p class="RouteSub APM">Line</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+					<p class="tipsname">未建成</p>
+					<p class="tipsub">Under<br>construction</p>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line9" title="广州地铁9号线">
+					<p class="RouteName">9号线</p>
+					<p class="RouteSub">Line 9</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line10" title="广州地铁10号线">
+					<p class="RouteName">10号线</p>
+					<p class="RouteSub">Line 10</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line11" title="广州地铁11号线">
+					<p class="RouteName">11号线</p>
+					<p class="RouteSub">Line 11</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line12" title="广州地铁12号线">
+					<p class="RouteName Black">12号线</p>
+					<p class="RouteSub Black">Line 12</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line13" title="广州地铁13号线">
+					<p class="RouteName">13号线</p>
+					<p class="RouteSub">Line 13</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line14" title="广州地铁14号线">
+					<p class="RouteName Black">14号线</p>
+					<p class="RouteSub Black">Line 14</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line15" title="广州地铁15号线">
+					<p class="RouteName">15号线</p>
+					<p class="RouteSub">Line 15</p>
+				</div>
+			</div>
+		</div>
+			<h3>食用方式</h3>
+			<pre style="border-radius: 0.3em;background-color: #eee;padding:5px">
+&lt;div class="Route <b>背景色类名</b>" title="<b>线路名称</b>"&gt;
+	&lt;p class="RouteName"&gt;<b>线路中文名</b>&lt;/p&gt;
+	&lt;p class="RouteSub"&gt;<b>线路英文名</b>&lt;/p&gt;
+&lt;/div&gt;
+
+提示：当线路名称为APM时，请使用&lt;p class="RouteSub APM"&gt;<b>Line</b>&lt;/p&gt;
+      当线路背景为浅色时，请使用&lt;p class="RouteName Black"&gt;<b>线路中文名</b>&lt;/p&gt; &lt;p class="RouteSub Black"&gt;<b>线路英文名</b>&lt;/p&gt;
+			</pre>
+	</div>
+	<div id="StaNum" style="padding-top:50px ">
+		<h2>车站编号</h2>
+		<hr>
+		<div style="display: inline-block;margin-left: 15px;">
+		<h3>已建成</h3>
+		<table cellspacing="20">
+			<tr>
+				<th>线路</th>
+				<th>标志</th>
+				<th>尚未开通的标志（示例）</th>
+			</tr>
+			<tr>
+				<td>一号线</td>
+				<td>
+					<span class="StaNumBox box-Line1" title="广州地铁1号线的1号车站">
+						<span class="StaNumFront num-Line1">1</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>二号线</td>
+				<td>
+					<span class="StaNumBox box-Line2" title="广州地铁2号线的1号车站">
+						<span class="StaNumFront num-Line2">2</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>三号线</td>
+				<td>	
+					<span class="StaNumBox box-Line3" title="广州地铁3号线的1号车站">
+						<span class="StaNumFront num-Line3">3</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+				<td>
+					<span class="StaNumBox box-UC" title="广州地铁3号线的28号车站（未开通）">
+						<span class="StaNumFront num-UC">3</span><span class="StaNumBack">28</span>
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td>四号线</td>
+				<td>	
+					<span class="StaNumBox box-Line4" title="广州地铁4号线的1号车站">
+						<span class="StaNumFront num-Line4">4</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+				<td>
+					<span class="StaNumBox box-UC" title="广州地铁4号线的16号车站（未开通）">
+						<span class="StaNumFront num-UC">4</span><span  class="StaNumBack">16</span>
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td>五号线</td>
+				<td>	
+					<span class="StaNumBox box-Line5" title="广州地铁5号线的1号车站">
+						<span class="StaNumFront num-Line5">5</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>六号线</td>
+				<td>
+					<span class="StaNumBox box-Line6" title="广州地铁6号线的1号车站">
+						<span class="StaNumFront num-Line6">6</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+				<td>
+					<span class="StaNumBox box-UC" title="广州地铁6号线的25号车站（未开通）">
+						<span class="StaNumFront num-UC">6</span><span class="StaNumBack">25</span>
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td>七号线</td>
+				<td>
+					<span class="StaNumBox box-Line7" title="广州地铁7号线的1号车站">
+						<span class="StaNumFront num-Line7">7</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>八号线</td>
+				<td>	
+					<span class="StaNumBox box-Line8" title="广州地铁8号线的1号车站">
+						<span class="StaNumFront num-Line8">8</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>广佛线</td>
+				<td>
+					<span class="StaNumBox box-LineGF" title="广佛地铁的1号车站">
+						<span class="StaNumFront num-LineGF">GF</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>APM线</td>
+				<td>
+					<span class="StaNumBox box-LineAPM" title="珠江新城旅客自动输送系统的1号车站">
+						<span class="StaNumFront num-LineAPM">APM</span><span class="StaNumBack">01
+					</span>
+				</td>
+				<td>-</td>
+			</tr>
+			</table>
+			
+		</div>	
+		
+				
+		<div style="display: inline-block;margin-left: 15px">
+			<h3>未建成</h3>
+			<table cellspacing="20">
+			<tr>
+				<th>线路</th>
+				<th>标志</th>
+			</tr>
+			<tr>
+				<td>九号线</td>
+				<td>
+					<span class="StaNumBox box-Line9" title="广州地铁9号线的1号车站">
+						<span class="StaNumFront num-Line9">9</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td>十号线</td>
+				<td>
+					<span class="StaNumBox box-Line10" title="广州地铁10号线的1号车站">
+						<span class="StaNumFront num-Line10">10</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td>十一号线</td>
+				<td>	
+					<span class="StaNumBox box-Line11" title="广州地铁11号线的1号车站">
+						<span class="StaNumFront num-Line11">11</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td>十二号线</td>
+				<td>	
+					<span class="StaNumBox box-Line12" title="广州地铁12号线的1号车站">
+						<span class="StaNumFront num-Line12">12</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td>十三号线</td>
+				<td>
+					<span class="StaNumBox box-Line13" title="广州地铁13号线的1号车站">
+						<span class="StaNumFront num-Line13">13</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td>十四号线</td>
+				<td>
+					<span class="StaNumBox box-Line14" title="广州地铁14号线的1号车站">
+						<span class="StaNumFront num-Line14">14</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+				<td>
+					<span class="StaNumBox box-Line14" title="广州地铁14号线知识城支线的1号车站">
+						<span class="StaNumFront num-Line14">KC</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td>十五号线</td>
+				<td>
+					<span class="StaNumBox box-Line15" title="广州地铁15号线的1号车站">
+						<span class="StaNumFront num-Line15">15</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td>未知线路</td>
+				<td>	
+					<span class="StaNumBox box-UC" title="广州地铁未知线路的1号车站">
+						<span class="StaNumFront num-UC">??</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+			</tr>
+			</table>
+
+		</div>
+		<h3>食用方式</h3>
+			<pre style="border-radius: 0.3em;background-color: #eee;padding:5px">
+&lt;span class="StaNumBox <b>外框类名</b>" title="<b>车站名称</b>"&gt;
+	&lt;span class="StaNumFront <b>分隔符类名</b>"&gt;<b>线路编号</b>&lt;/span&gt;&lt;span class="StaNumBack"&gt;<b>车站编号</b>&lt;/span&gt;
+&lt;/span&gt;
+			</pre>
+	</div>
+	<div id="PlatNum" style="padding-top:50px ">
+		<h2>站台编号</h2>
+		<hr>
+		<div class="pcs-cont" style="display: inline-block">
+			<div style="display: inline-block;padding-right: 5px">
+					<p class="tipsname">已建成</p>
+					<p class="tipsub">Construction<br>completed</p>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Platform bg-Line1" title="1站台">
+					<p class="PltName">1</p>
+					<p class="PltSubChs">站台</p>
+					<p class="PltSubEng">Platform</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Platform bg-Line2" title="2站台">
+					<p class="PltName">2</p>
+					<p class="PltSubChs">站台</p>
+					<p class="PltSubEng">Platform</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Platform bg-Line3" title="3站台">
+					<p class="PltName">3</p>
+					<p class="PltSubChs">站台</p>
+					<p class="PltSubEng">Platform</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Platform bg-Line4" title="4站台">
+					<p class="PltName">4</p>
+					<p class="PltSubChs">站台</p>
+					<p class="PltSubEng">Platform</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Platform bg-Line5" title="1站台">
+					<p class="PltName">1</p>
+					<p class="PltSubChs">站台</p>
+					<p class="PltSubEng">Platform</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Platform bg-Line6" title="2站台">
+					<p class="PltName">2</p>
+					<p class="PltSubChs">站台</p>
+					<p class="PltSubEng">Platform</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Platform bg-Line7" title="3站台">
+					<p class="PltName">3</p>
+					<p class="PltSubChs">站台</p>
+					<p class="PltSubEng">Platform</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Platform bg-Line8" title="4站台">
+					<p class="PltName">4</p>
+					<p class="PltSubChs">站台</p>
+					<p class="PltSubEng">Platform</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Platform bg-LineGF" title="1站台">
+					<p class="PltName">1</p>
+					<p class="PltSubChs">站台</p>
+					<p class="PltSubEng">Platform</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Platform bg-LineAPM" title="2站台">
+					<p class="PltName">2</p>
+					<p class="PltSubChs">站台</p>
+					<p class="PltSubEng">Platform</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+					<p class="tipsname">未建成</p>
+					<p class="tipsub">Under<br>construction</p>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Platform bg-Line9" title="1站台">
+					<p class="PltName">1</p>
+					<p class="PltSubChs">站台</p>
+					<p class="PltSubEng">Platform</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Platform bg-Line10" title="2站台">
+					<p class="PltName">2</p>
+					<p class="PltSubChs">站台</p>
+					<p class="PltSubEng">Platform</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Platform bg-Line11" title="3站台">
+					<p class="PltName">3</p>
+					<p class="PltSubChs">站台</p>
+					<p class="PltSubEng">Platform</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Platform bg-Line12" title="4站台">
+					<p class="PltName Black">4</p>
+					<p class="PltSubChs Black">站台</p>
+					<p class="PltSubEng Black">Platform</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Platform bg-Line13" title="1站台">
+					<p class="PltName">1</p>
+					<p class="PltSubChs">站台</p>
+					<p class="PltSubEng">Platform</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Platform bg-Line14" title="2站台">
+					<p class="PltName Black">2</p>
+					<p class="PltSubChs Black">站台</p>
+					<p class="PltSubEng Black">Platform</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Platform bg-Line15" title="3站台">
+					<p class="PltName">3</p>
+					<p class="PltSubChs">站台</p>
+					<p class="PltSubEng">Platform</p>
+				</div>
+			</div>
+		</div>
+		<h3>食用方式</h3>
+			<pre style="border-radius: 0.3em;background-color: #eee;padding:5px">
+&lt;div class="Platform <b>背景色类名</b>" title="<b>站台名称</b>"&gt;
+	&lt;p class="PltName"&gt;<b>站台编号</b>&lt;/p&gt;
+	&lt;p class="PltSubChs"&gt;站台&lt;/p&gt;
+	&lt;p class="PltSubEng"&gt;Platform&lt;/p&gt;
+&lt;/div&gt;
+
+提示：当线路背景为浅色时，请使用&lt;p class="PltName Black"&gt;<b>站台编号</b>&lt;/p&gt; &lt;p class="PltSubChs Black"&gt;站台&lt;/p&gt; &lt;p class="PltSubEng Black"&gt;Platform&lt;/p&gt;
+			</pre>
+	</div>
+	<div id="ScrDoorNum" style="padding-top:50px ">
+		<h2>屏蔽门编号</h2>
+		<hr>
+		<div class="pcs-cont" style="display: inline-block">
+			<div style="display: inline-block;padding-right: 10px">
+					<p class="tipsname">已建成</p>
+					<p class="tipsub">Construction<br>completed</p>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line1" title="1号屏蔽门">
+					<p class="ScrName">1</p>
+					<p class="ScrSubChs">屏蔽门</p>
+					<p class="ScrSubEng">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line2" title="2号屏蔽门">
+					<p class="ScrName">2</p>
+					<p class="ScrSubChs">屏蔽门</p>
+					<p class="ScrSubEng">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line3" title="3号屏蔽门">
+					<p class="ScrName">3</p>
+					<p class="ScrSubChs">屏蔽门</p>
+					<p class="ScrSubEng">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line4" title="4号屏蔽门">
+					<p class="ScrName">4</p>
+					<p class="ScrSubChs">屏蔽门</p>
+					<p class="ScrSubEng">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line5" title="1号屏蔽门">
+					<p class="ScrName">1</p>
+					<p class="ScrSubChs">屏蔽门</p>
+					<p class="ScrSubEng">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line6" title="2号屏蔽门">
+					<p class="ScrName">2</p>
+					<p class="ScrSubChs">屏蔽门</p>
+					<p class="ScrSubEng">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line7" title="3号屏蔽门">
+					<p class="ScrName">3</p>
+					<p class="ScrSubChs">屏蔽门</p>
+					<p class="ScrSubEng">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line8" title="4号屏蔽门">
+					<p class="ScrName">4</p>
+					<p class="ScrSubChs">屏蔽门</p>
+					<p class="ScrSubEng">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-LineGF" title="1号屏蔽门">
+					<p class="ScrName">1</p>
+					<p class="ScrSubChs">屏蔽门</p>
+					<p class="ScrSubEng">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-LineAPM" title="2号屏蔽门">
+					<p class="ScrName">2</p>
+					<p class="ScrSubChs">屏蔽门</p>
+					<p class="ScrSubEng">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+					<p class="tipsname">未建成</p>
+					<p class="tipsub">Under<br>construction</p>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line9" title="1号屏蔽门">
+					<p class="ScrName">1</p>
+					<p class="ScrSubChs">屏蔽门</p>
+					<p class="ScrSubEng">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line10" title="2号屏蔽门">
+					<p class="ScrName">2</p>
+					<p class="ScrSubChs">屏蔽门</p>
+					<p class="ScrSubEng">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line11" title="3号屏蔽门">
+					<p class="ScrName">3</p>
+					<p class="ScrSubChs">屏蔽门</p>
+					<p class="ScrSubEng">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line12" title="4号屏蔽门">
+					<p class="ScrName Black">4</p>
+					<p class="ScrSubChs Black">屏蔽门</p>
+					<p class="ScrSubEng Black">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line13" title="1号屏蔽门">
+					<p class="ScrName">1</p>
+					<p class="ScrSubChs">屏蔽门</p>
+					<p class="ScrSubEng">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line14" title="2号屏蔽门">
+					<p class="ScrName Black">2</p>
+					<p class="ScrSubChs Black">屏蔽门</p>
+					<p class="ScrSubEng Black">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line15" title="3号屏蔽门">
+					<p class="ScrName">3</p>
+					<p class="ScrSubChs">屏蔽门</p>
+					<p class="ScrSubEng">ScreenDoor</p>
+				</div>
+			</div>
+
+		</div>
+		<h3>食用方式</h3>
+			<pre style="border-radius: 0.3em;background-color: #eee;padding:5px">
+&lt;div class="ScrDoor <b>背景色类名</b>" title="<b>屏蔽门名称</b>"&gt;
+	&lt;p class="ScrName"&gt;<b>屏蔽门编号</b>&lt;/p&gt;
+	&lt;p class="ScrSubChs"&gt;屏蔽门&lt;/p&gt;
+	&lt;p class="ScrSubEng"&gt;ScreenDoor&lt;/p&gt;
+&lt;/div&gt;
+
+提示：当线路背景为浅色时，请使用&lt;p class="ScrName Black"&gt;<b>屏蔽门编号</b>&lt;/p&gt; &lt;p class="ScrSubChs Black"&gt;屏蔽门&lt;/p&gt; &lt;p class="ScrSubEng Black"&gt;ScreenDoor&lt;/p&gt;
+			</pre>
+	</div>
+	<div id="Color" style="padding-top:50px ">
+		
+		<h2>线路标志色</h2>
+		<hr>
+		<center style="margin-left:10px;">
+		<h3>已建成</h3>
+		<table cellpadding="20" cellspacing="0" style="text-align: center">
+			<tr>
+				<th>线路</th>
+				<th>背景色类名</th>
+				<th>外框类名</th>
+				<th>分隔符类名</th>
+				<th>颜色代码</th>
+			</tr>
+			<tr>
+				<td class="bg-line1">一号线</td>
+				<td class="bg-line1">bg-line1</td>
+				<td class="bg-line1">box-line1</td>
+				<td class="bg-line1">num-line1</td>
+				<td class="bg-line1">#E1B54F</td>
+			</tr>
+			<tr class="white">
+				<td class="bg-line2">二号线</td>
+				<td class="bg-line2">bg-line2</td>
+				<td class="bg-line2">box-line2</td>
+				<td class="bg-line2">num-line2</td>
+				<td class="bg-line2">#286C98</td>
+			</tr>
+			<tr class="white">
+				<td class="bg-line3">三号线</td>
+				<td class="bg-line3">bg-line3</td>
+				<td class="bg-line3">box-line3</td>
+				<td class="bg-line3">num-line3</td>
+				<td class="bg-line3">#DE9061</td>
+			</tr>
+			<tr class="white">
+				<td class="bg-line4">四号线</td>
+				<td class="bg-line4">bg-line4</td>
+				<td class="bg-line4">box-line4</td>
+				<td class="bg-line4">num-line4</td>
+				<td class="bg-line4">#378846</td>
+			</tr>
+			<tr class="white">
+				<td class="bg-line5">五号线</td>
+				<td class="bg-line5">bg-line5</td>
+				<td class="bg-line5">box-line5</td>
+				<td class="bg-line5">num-line5</td>
+				<td class="bg-line5">#C42453</td>
+			</tr>
+			<tr class="white">
+				<td class="bg-line6">六号线</td>
+				<td class="bg-line6">bg-line6</td>
+				<td class="bg-line6">box-line6</td>
+				<td class="bg-line6">num-line6</td>
+				<td class="bg-line6">#842F6A</td>
+			</tr>
+			<tr class="white">
+				<td class="bg-line7">七号线</td>
+				<td class="bg-line7">bg-line7</td>
+				<td class="bg-line7">box-line7</td>
+				<td class="bg-line7">num-line7</td>
+				<td class="bg-line7">#95D600</td>
+			</tr>
+			<tr class="white">
+				<td class="bg-line8">八号线</td>
+				<td class="bg-line8">bg-line8</td>
+				<td class="bg-line8">box-line8</td>
+				<td class="bg-line8">num-line8</td>
+				<td class="bg-line8">#2D9496</td>
+			</tr>
+			<tr class="white">
+				<td class="bg-lineGF">广佛线</td>
+				<td class="bg-lineGF">bg-lineGF</td>
+				<td class="bg-lineGF">box-lineGF</td>
+				<td class="bg-lineGF">num-lineGF</td>
+				<td class="bg-lineGF">#B5BF3B</td>
+			</tr>
+			<tr class="white">
+				<td class="bg-lineAPM">APM线</td>
+				<td class="bg-lineAPM">bg-lineAPM</td>
+				<td class="bg-lineAPM">box-lineAPM</td>
+				<td class="bg-lineAPM">num-lineAPM</td>
+				<td class="bg-lineAPM">#2B9FBE</td>
+			</tr>
+			<tr class="white">
+				<td class="bg-lineTHZ1">有轨电车<br>THZ1线</td>
+				<td class="bg-lineTHZ1">bg-lineTHZ1</td>
+				<td class="bg-lineTHZ1">box-lineTHZ1</td>
+				<td class="bg-lineTHZ1">num-lineTHZ1</td>
+				<td class="bg-lineTHZ1">#3CAABC</td>
+			</tr>
+			</table>
+		</center>
+
+		<center style="margin-left: 10px;">
+		<h3>未建成</h3>
+			<br>
+			<span style="color:red">注意：以下线路尚未开通，标志色仅供参考。线路开通时，标志色可能会发生变化。</span>
+		<table cellpadding="20" cellspacing="0" style="text-align: center">
+			<tr>
+				<th>线路</th>
+				<th>背景色类名</th>
+				<th>外框类名</th>
+				<th>分隔符类名</th>
+				<th>颜色代码</th>
+			</tr>
+			<tr class="white">
+				<td class="bg-line9">九号线</td>
+				<td class="bg-line9">bg-line9</td>
+				<td class="bg-line9">box-line9</td>
+				<td class="bg-line9">num-line9</td>
+				<td class="bg-line9">#6ECB98</td>
+			</tr>
+			<tr class="white">
+				<td class="bg-line10">十号线</td>
+				<td class="bg-line10">bg-line10</td>
+				<td class="bg-line10">box-line10</td>
+				<td class="bg-line10">num-line10</td>
+				<td class="bg-line10">#70A489</td>
+			</tr>
+			<tr class="white">
+				<td class="bg-line11">十一号线</td>
+				<td class="bg-line11">bg-line11</td>
+				<td class="bg-line11">box-line11</td>
+				<td class="bg-line11">num-line11</td>
+				<td class="bg-line11">#CE8E00</td>
+			</tr>
+			<tr>
+				<td class="bg-line12">十二号线</td>
+				<td class="bg-line12">bg-line12</td>
+				<td class="bg-line12">box-line12</td>
+				<td class="bg-line12">num-line12</td>
+				<td class="bg-line12">#E2C2C7</td>
+			</tr>
+			<tr class="white">
+				<td class="bg-line13">十三号线</td>
+				<td class="bg-line13">bg-line13</td>
+				<td class="bg-line13">box-line13</td>
+				<td class="bg-line13">num-line13</td>
+				<td class="bg-line13">#823C47</td>
+			</tr>
+			<tr>
+				<td class="bg-line14">十四号线</td>
+				<td class="bg-line14">bg-line14</td>
+				<td class="bg-line14">box-line14</td>
+				<td class="bg-line14">num-line14</td>
+				<td class="bg-line14">#DAE3EA</td>
+			</tr>
+			<tr>
+				<td class="bg-line14">十四号线<br>知识城支线</td>
+				<td class="bg-line14">bg-line14</td>
+				<td class="bg-line14">box-line14</td>
+				<td class="bg-line14">num-line14</td>
+				<td class="bg-line14">#DAE3EA</td>
+			</tr>
+			<tr class="white">
+				<td class="bg-line15">十五号线</td>
+				<td class="bg-line15">bg-line15</td>
+				<td class="bg-line15">box-line15</td>
+				<td class="bg-line15">num-line15</td>
+				<td class="bg-line15">#7577C0</td>
+			</tr>
+
+			<tr class="white">
+				<td class="bg-lineUC">未知线路</td>
+				<td class="bg-lineUC">bg-UC</td>
+				<td class="bg-lineUC">box-UC</td>
+				<td class="bg-lineUC">num-UC</td>
+				<td class="bg-lineUC">#999</td>
+			</tr>
+			</table>
+		</center>
+	</div>
+	<center id="about" style="margin-bottom: 50px">
+	<hr>
+		本项目所基于/参考的资源：<br>
+		<a href="https://zh.wikipedia.org/wiki/Template:%E5%B9%BF%E5%B7%9E%E5%9C%B0%E9%93%81%E6%A0%87%E5%BF%97%E8%89%B2" target="_blank">维基百科模版：广州地铁标志色</a>
+		<br>
+		<a href="https://zh.wikipedia.org/wiki/Template:%E5%B9%BF%E5%B7%9E%E5%9C%B0%E9%93%81%E8%BD%A6%E7%AB%99%E7%BC%96%E5%8F%B7" target="_blank">维基百科模版：广州地铁车站编号</a>
+		<br>
+		<br>
+		<b>&lt; &gt;</b> with <b>❤</b> by <b><a href="https://github.com/df7c5117" target="_blank">@df7c5117</a></b>
+		Under the MIT licence
+	</center>
+</body>

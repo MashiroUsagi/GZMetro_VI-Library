@@ -1,0 +1,196 @@
+/*==== Guangzhou Metro Guidance Identity System in CSS ====*/
+/*================== Version 1.0 2017/1/16 ================*/
+/*==================== Code By @df7c5117 ==================*/
+/*============== https://github.com/df7c5117 ==============*/
+
+
+/*Route Index*/
+.Route{
+	border-radius: 0.3em; 
+	height: 3em;
+	width: 5em;
+	padding:0.2em;
+}
+.RouteName{
+	color: #fff;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: lighter;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+}
+.RouteSub{
+	color: #fff;
+	font-size: 0.5em;
+	text-align:center;
+	-webkit-margin-before: 0em;
+}
+.APM{
+	text-align: right
+}
+/*Station Index*/
+.StaNumBox{
+	white-space: nowrap;
+	color: #000;
+	border-radius: 0.8em;
+	line-height: 1.4em; 
+}
+.StaNumFront{
+	display: inline-block;
+	min-width: 0.7em;
+	height: 1.4em;
+	text-align: center;
+	padding-left: 0.3em;
+	padding-right: 0.2em;
+}
+.StaNumBack{
+	display: inline-block;
+	height: 1.4em;
+	padding-left: 0.2em;
+	padding-right: 0.3em
+}
+/*Platform Index*/
+.Platform{
+	display: inline-block;
+	width: 4em;
+	height: 4em;
+	line-height: 1em;
+	text-align: center;
+	border-radius: 50%;
+}
+.PltName{
+	color: #fff;
+	padding-top: 0.3em;
+	text-align: center;
+	font-size: 2em;
+	font-weight: lighter;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+}
+.PltSubChs{
+	color: #fff;
+	font-size: 0.3em;
+	padding-top: 0.5em;
+	text-align:center;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+}
+.PltSubEng{
+	color: #fff;
+	font-size: 0.3em;
+	text-align:center;
+	-webkit-margin-before: -0.3em;
+	-webkit-margin-after: 0em;
+}
+/*Screen Door*/
+.ScrDoor{
+	display: inline-block;
+	width: 4.1em;
+	height: 4.3em;
+	line-height: 1em;
+	text-align: center;
+	border-radius: 0.5em;
+}
+.ScrName{
+	color: #fff;
+	padding-top: 0.4em;
+	text-align: center;
+	font-size: 2em;
+	font-weight: lighter;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+}
+.ScrSubChs{
+	color: #fff;
+	font-size: 0.8em;
+	padding-top: 0.8em;
+	text-align:center;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+}
+.ScrSubEng{
+	color: #fff;
+	font-size: 0.3em;
+	text-align:center;
+	-webkit-margin-before: -0.3em;
+	-webkit-margin-after: 0em;
+}
+/*Color*/
+.bg-Line1{background-color: #E1B54F}
+.box-Line1{border: 2px solid #E1B54F}
+.num-Line1{border-right: 2px solid #E1B54F}
+
+.bg-Line2{background-color: #286C98}
+.box-Line2{border: 2px solid #286C98}
+.num-Line2{border-right: 2px solid #286C98}
+
+.bg-Line3{background-color: #DE9061}
+.box-Line3{border: 2px solid #DE9061}
+.num-Line3{border-right: 2px solid #DE9061}
+
+.bg-Line4{background-color: #378846}
+.box-Line4{border: 2px solid #378846}
+.num-Line4{border-right: 2px solid #378846}
+
+.bg-Line5{background-color: #C42453}
+.box-Line5{border: 2px solid #C42453}
+.num-Line5{border-right: 2px solid #C42453}
+
+.bg-Line6{background-color: #842F6A}
+.box-Line6{border: 2px solid #842F6A}
+.num-Line6{border-right: 2px solid #842F6A}
+
+.bg-Line7{background-color: #95D600}
+.box-Line7{border: 2px solid #95D600}
+.num-Line7{border-right: 2px solid #95D600}
+
+.bg-Line8{background-color: #2D9496}
+.box-Line8{border: 2px solid #2D9496}
+.num-Line8{border-right: 2px solid #2D9496}
+
+.bg-Line9{background-color: #6ECB98}
+.box-Line9{border: 2px solid #6ECB98}
+.num-Line9{border-right: 2px solid #6ECB98}
+
+.bg-Line10{background-color: #70A489}
+.box-Line10{border: 2px solid #70A489}
+.num-Line10{border-right: 2px solid #70A489}
+
+.bg-Line11{background-color: #CE8E00}
+.box-Line11{border: 2px solid #CE8E00}
+.num-Line11{border-right: 2px solid #CE8E00}
+
+.bg-Line12{background-color: #E2C2C7}
+.box-Line12{border: 2px solid #E2C2C7}
+.num-Line12{border-right: 2px solid #E2C2C7}
+
+.bg-Line13{background-color: #823C47}
+.box-Line13{border: 2px solid #823C47}
+.num-Line13{border-right: 2px solid #823C47}
+
+.bg-Line14{background-color: #DAE3EA}
+.box-Line14{border: 2px solid #DAE3EA}
+.num-Line14{border-right: 2px solid #DAE3EA}
+
+.bg-Line15{background-color: #7577C0}
+.box-Line15{border: 2px solid #7577C0}
+.num-Line15{border-right: 2px solid #7577C0}
+
+.bg-LineGF{background-color: #B5BF3B}
+.box-LineGF{border: 2px solid #B5BF3B}
+.num-LineGF{border-right: 2px solid #B5BF3B}
+
+.bg-LineAPM{background-color: #2B9FBE}
+.box-LineAPM{border: 2px solid #2B9FBE}
+.num-LineAPM{border-right: 2px solid #2B9FBE}
+
+.bg-LineTHZ1{background-color: #3CAABC}
+.box-LineTHZ1{border: 2px solid #3CAABC}
+.num-LineTHZ1{border-right: 2px solid #3CAABC}
+
+.bg-UC{background-color: #999}
+.box-UC{border: 2px solid #999;}
+.num-UC{border-right: 2px solid #999}
+/*Universe*/
+.Black{color: #000}
+.White{color: #fff}
