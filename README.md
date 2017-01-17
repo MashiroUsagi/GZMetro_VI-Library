@@ -16,6 +16,8 @@ Everyone can modified it except for the already existing codes
 然后请参阅demo.html中的示例。
 
 完了。Enjoy coding！
+###附赠地图
+<img src="https://raw.githubusercontent.com/df7c5117/Guangzhou-Metro-Guidance-System-in-CSS/master/MAP.jpg" style="width:70%;height:70%">
 
 ###关于
 本项目所基于/参考的资源：
