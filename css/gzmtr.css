@@ -116,17 +116,17 @@
 	-webkit-margin-after: 0em;
 }
 /*Color*/
-.bg-Line1{background-color: #E1B54F}
-.box-Line1{border: 2px solid #E1B54F}
-.num-Line1{border-right: 2px solid #E1B54F}
+.bg-Line1{background-color: #E4C045}
+.box-Line1{border: 2px solid #E4C045}
+.num-Line1{border-right: 2px solid #E4C045}
 
 .bg-Line2{background-color: #286C98}
 .box-Line2{border: 2px solid #286C98}
 .num-Line2{border-right: 2px solid #286C98}
 
-.bg-Line3{background-color: #DE9061}
-.box-Line3{border: 2px solid #DE9061}
-.num-Line3{border-right: 2px solid #DE9061}
+.bg-Line3{background-color: #E48F49}
+.box-Line3{border: 2px solid #E48F49}
+.num-Line3{border-right: 2px solid #E48F49}
 
 .bg-Line4{background-color: #378846}
 .box-Line4{border: 2px solid #378846}
@@ -176,9 +176,9 @@
 .box-Line15{border: 2px solid #7577C0}
 .num-Line15{border-right: 2px solid #7577C0}
 
-.bg-LineGF{background-color: #B5BF3B}
-.box-LineGF{border: 2px solid #B5BF3B}
-.num-LineGF{border-right: 2px solid #B5BF3B}
+.bg-LineGF{background-color: #AECB31}
+.box-LineGF{border: 2px solid #AECB31}
+.num-LineGF{border-right: 2px solid #AECB31}
 
 .bg-LineAPM{background-color: #2B9FBE}
 .box-LineAPM{border: 2px solid #2B9FBE}
