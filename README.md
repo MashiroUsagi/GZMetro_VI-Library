@@ -1,7 +1,7 @@
 ##Guangzhou Metro Guidance Identity System in CSS
 ##广州地铁站点导向指引系统（CSS实现版本）
 
-**Latest update：2017.1.17 20:00**
+**Latest update：2017.1.19 20:55**
 
 ©2017 @df7c5117
 

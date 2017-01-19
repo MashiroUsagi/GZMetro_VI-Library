@@ -21,7 +21,7 @@
 }
 .RouteSub{
 	color: #fff;
-	font-size: 0.5em;
+	font-size: 0.7em;
 	text-align:center;
 	-webkit-margin-before: 0em;
 }
@@ -37,17 +37,17 @@
 }
 .StaNumFront{
 	display: inline-block;
-	min-width: 0.7em;
+	min-width: 1.2em;
 	height: 1.4em;
 	text-align: center;
-	padding-left: 0.3em;
-	padding-right: 0.2em;
+	padding-left: 0.2em;
+	padding-right: 0.1em;
 }
 .StaNumBack{
 	display: inline-block;
 	height: 1.4em;
 	padding-left: 0.2em;
-	padding-right: 0.3em
+	padding-right: 0.2em
 }
 /*Platform Index*/
 .Platform{
@@ -69,7 +69,7 @@
 }
 .PltSubChs{
 	color: #fff;
-	font-size: 0.3em;
+	font-size: 0.8em;
 	padding-top: 0.5em;
 	text-align:center;
 	-webkit-margin-before: 0em;
@@ -77,9 +77,9 @@
 }
 .PltSubEng{
 	color: #fff;
-	font-size: 0.3em;
+	font-size: 0.8em;
 	text-align:center;
-	-webkit-margin-before: -0.3em;
+	-webkit-margin-before: -0.2em;
 	-webkit-margin-after: 0em;
 }
 /*Screen Door*/
@@ -110,9 +110,9 @@
 }
 .ScrSubEng{
 	color: #fff;
-	font-size: 0.3em;
+	font-size: 0.5em;
 	text-align:center;
-	-webkit-margin-before: -0.3em;
+	-webkit-margin-before: -0.2em;
 	-webkit-margin-after: 0em;
 }
 /*Color*/
