@@ -11,11 +11,12 @@
 		.tipsname{color: #000;text-align: center;font-size: 1em;-webkit-margin-before: 0em;-webkit-margin-after: 0em;}
 		.tipsub{color: #000;font-size: 0.3em;text-align:center;-webkit-margin-before: 0em;}
 		.pcs-cont{width: 100%;overflow-y:hidden;overflow-x:scroll;clear:both;white-space: nowrap}
+		.log{padding:50px 0 0 25px}
 	</style>
 </head>
 <body>
 	<div class="navbar">
-		<h2 class="head">广州地铁站点导向指引系统（CSS实现版本）</h2>
+		<h2 class="head">广州地铁站点导向指引系统（CSS v1.2）</h2>
 			<div class="nav">
 				<a href="#Route">路线标志</a>&#12288;&#12288;
 				<a href="#StaNum">车站编号</a>&#12288;&#12288;
@@ -25,7 +26,14 @@
 				<a href="#about">关于</a>&#12288;&#12288;
 			</div>
 	</div>
-	<div id="Route" style="padding-top:50px ">
+	<div class="log">
+		<b>更新日志：</b><br>
+		1、解决了部分移动端设备显示字体不正常的问题（CM12.1测试有效）<br>
+		2、修正车站编号的样式<br>
+		<b>目前尚未修复：</b><br>
+		APM线的样式
+	</div>
+	<div id="Route" style="padding-top:50px">
 		<h2>路线标志</h2>
 		<hr>
 		<h3>示例</h3>
