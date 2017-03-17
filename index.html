@@ -16,7 +16,7 @@
 </head>
 <body>
 	<div class="navbar">
-		<h2 class="head">广州地铁站点导向指引系统（CSS v1.2）</h2>
+		<h2 class="head">广州地铁站点导向指引系统（CSS v1.3）</h2>
 			<div class="nav">
 				<a href="#Route">路线标志</a>&#12288;&#12288;
 				<a href="#StaNum">车站编号</a>&#12288;&#12288;
@@ -28,8 +28,7 @@
 	</div>
 	<div class="log">
 		<b>更新日志：</b><br>
-		1、解决了部分移动端设备显示字体不正常的问题（CM12.1测试有效）<br>
-		2、修正车站编号的样式<br>
+		1、新增21号线、修正部分线路的颜色<br>
 		<b>目前尚未修复：</b><br>
 		APM线的样式
 	</div>
@@ -144,8 +143,8 @@
 
 			<div style="display: inline-block;padding-right: 5px">
 				<div class="Route bg-Line14" title="广州地铁14号线">
-					<p class="RouteName Black">14号线</p>
-					<p class="RouteSub Black">Line 14</p>
+					<p class="RouteName">14号线</p>
+					<p class="RouteSub">Line 14</p>
 				</div>
 			</div>
 
@@ -153,6 +152,13 @@
 				<div class="Route bg-Line15" title="广州地铁15号线">
 					<p class="RouteName">15号线</p>
 					<p class="RouteSub">Line 15</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line21" title="广州地铁15号线">
+					<p class="RouteName">21号线</p>
+					<p class="RouteSub">Line 21</p>
 				</div>
 			</div>
 		</div>
@@ -355,6 +361,14 @@
 				</td>
 			</tr>
 			<tr>
+				<td>21号线</td>
+				<td>
+					<span class="StaNumBox box-Line21" title="广州地铁21号线的1号车站">
+						<span class="StaNumFront num-Line21">21</span><span class="StaNumBack">01</span>
+					</span>
+				</td>
+			</tr>
+			<tr>
 				<td>未知线路</td>
 				<td>	
 					<span class="StaNumBox box-UC" title="广州地铁未知线路的1号车站">
@@ -491,14 +505,21 @@
 			</div>
 			<div style="display: inline-block;padding-right: 5px">
 				<div class="Platform bg-Line14" title="2站台">
-					<p class="PltName Black">2</p>
-					<p class="PltSubChs Black">站台</p>
-					<p class="PltSubEng Black">Platform</p>
+					<p class="PltName">2</p>
+					<p class="PltSubChs">站台</p>
+					<p class="PltSubEng">Platform</p>
 				</div>
 			</div>
 			<div style="display: inline-block;padding-right: 5px">
 				<div class="Platform bg-Line15" title="3站台">
 					<p class="PltName">3</p>
+					<p class="PltSubChs">站台</p>
+					<p class="PltSubEng">Platform</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Platform bg-Line21" title="4站台">
+					<p class="PltName">4</p>
 					<p class="PltSubChs">站台</p>
 					<p class="PltSubEng">Platform</p>
 				</div>
@@ -634,14 +655,21 @@
 			</div>
 			<div style="display: inline-block;padding-right: 10px">
 				<div class="ScrDoor bg-Line14" title="2号屏蔽门">
-					<p class="ScrName Black">2</p>
-					<p class="ScrSubChs Black">屏蔽门</p>
-					<p class="ScrSubEng Black">ScreenDoor</p>
+					<p class="ScrName">2</p>
+					<p class="ScrSubChs">屏蔽门</p>
+					<p class="ScrSubEng">ScreenDoor</p>
 				</div>
 			</div>
 			<div style="display: inline-block;padding-right: 10px">
 				<div class="ScrDoor bg-Line15" title="3号屏蔽门">
 					<p class="ScrName">3</p>
+					<p class="ScrSubChs">屏蔽门</p>
+					<p class="ScrSubEng">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line21" title="4号屏蔽门">
+					<p class="ScrName">4</p>
 					<p class="ScrSubChs">屏蔽门</p>
 					<p class="ScrSubEng">ScreenDoor</p>
 				</div>
@@ -784,7 +812,7 @@
 				<td class="bg-line11">bg-line11</td>
 				<td class="bg-line11">box-line11</td>
 				<td class="bg-line11">num-line11</td>
-				<td class="bg-line11">#CE8E00</td>
+				<td class="bg-line11">#4A0D66</td>
 			</tr>
 			<tr>
 				<td class="bg-line12">十二号线</td>
@@ -798,21 +826,21 @@
 				<td class="bg-line13">bg-line13</td>
 				<td class="bg-line13">box-line13</td>
 				<td class="bg-line13">num-line13</td>
-				<td class="bg-line13">#823C47</td>
+				<td class="bg-line13">#918C10</td>
 			</tr>
-			<tr>
+			<tr class="white">
 				<td class="bg-line14">十四号线</td>
 				<td class="bg-line14">bg-line14</td>
 				<td class="bg-line14">box-line14</td>
 				<td class="bg-line14">num-line14</td>
-				<td class="bg-line14">#DAE3EA</td>
+				<td class="bg-line14">#85332D</td>
 			</tr>
-			<tr>
+			<tr class="white">
 				<td class="bg-line14">十四号线<br>知识城支线</td>
 				<td class="bg-line14">bg-line14</td>
 				<td class="bg-line14">box-line14</td>
 				<td class="bg-line14">num-line14</td>
-				<td class="bg-line14">#DAE3EA</td>
+				<td class="bg-line14">#85332D</td>
 			</tr>
 			<tr class="white">
 				<td class="bg-line15">十五号线</td>
@@ -821,13 +849,19 @@
 				<td class="bg-line15">num-line15</td>
 				<td class="bg-line15">#7577C0</td>
 			</tr>
-
 			<tr class="white">
-				<td class="bg-lineUC">未知线路</td>
-				<td class="bg-lineUC">bg-UC</td>
-				<td class="bg-lineUC">box-UC</td>
-				<td class="bg-lineUC">num-UC</td>
-				<td class="bg-lineUC">#999</td>
+				<td class="bg-line21">21号线</td>
+				<td class="bg-line21">bg-line21</td>
+				<td class="bg-line21">box-line21</td>
+				<td class="bg-line21">num-line21</td>
+				<td class="bg-line21">#211646</td>
+			</tr>
+			<tr class="white">
+				<td class="bg-UC">未知线路</td>
+				<td class="bg-UC">bg-UC</td>
+				<td class="bg-UC">box-UC</td>
+				<td class="bg-UC">num-UC</td>
+				<td class="bg-UC">#999</td>
 			</tr>
 			</table>
 		</center>
