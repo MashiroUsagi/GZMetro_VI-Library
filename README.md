@@ -1,7 +1,7 @@
 ## Guangzhou Metro Guidance Identity System in CSS
 ## 广州地铁站点导向指引系统（CSS实现版本）
 
-**Latest update：2017.3.17 23:45**
+**Latest update：2017.5.20 12:09**
 
 ©2017 @df7c5117
 
@@ -23,7 +23,12 @@ Everyone can modified it except for the already existing codes
 <img src="https://raw.githubusercontent.com/df7c5117/Guangzhou-Metro-Guidance-System-in-CSS/master/MAP.jpg" style="width:70%;height:70%">
 
 ### 更新日志
-* 2017-01-20
+* 2017-05-20
+
+1、预留全部路线，新增22号线，修正1、3、10、18号线的颜色
+
+
+* 2017-03-28
 
 1、新增21号线、修正部分线路的颜色
 
