@@ -6,7 +6,7 @@
 
 /*Route Index*/
 .Route{
-	border-radius: 0.3em; 
+	border-radius: 0.3em;
 	height: 3em;
 	width: 5em;
 	padding:0.2em;
@@ -33,7 +33,7 @@
 	white-space: nowrap;
 	color: #000;
 	border-radius: 0.8em;
-	line-height: 1.4em; 
+	line-height: 1.4em;
 }
 .StaNumFront{
 	display: inline-block;
@@ -116,101 +116,101 @@
 	-webkit-margin-after: 0em;
 }
 /*Color*/
-.bg-Line1{background-color: #F7CE3C}
-.box-Line1{border: 2px solid #F7CE3C}
-.num-Line1{border-right: 2px solid #F7CE3C}
+.bg-Line1{background-color: #F3D03E}
+.box-Line1{border: 2px solid #F3D03E}
+.num-Line1{border-right: 2px solid #F3D03E}
 
-.bg-Line2{background-color: #286C98}
-.box-Line2{border: 2px solid #286C98}
-.num-Line2{border-right: 2px solid #286C98}
+.bg-Line2{background-color: #00629B}
+.box-Line2{border: 2px solid #00629B}
+.num-Line2{border-right: 2px solid #00629B}
 
-.bg-Line3{background-color: #F19F53}
-.box-Line3{border: 2px solid #F19F53}
-.num-Line3{border-right: 2px solid #F19F53}
+.bg-Line3{background-color: #ECA154}
+.box-Line3{border: 2px solid #ECA154}
+.num-Line3{border-right: 2px solid #ECA154}
 
-.bg-Line4{background-color: #378846}
-.box-Line4{border: 2px solid #378846}
-.num-Line4{border-right: 2px solid #378846}
+.bg-Line4{background-color: #00843D}
+.box-Line4{border: 2px solid #00843D}
+.num-Line4{border-right: 2px solid #00843D}
 
-.bg-Line5{background-color: #C42453}
-.box-Line5{border: 2px solid #C42453}
-.num-Line5{border-right: 2px solid #C42453}
+.bg-Line5{background-color: #C5003E}
+.box-Line5{border: 2px solid #C5003E}
+.num-Line5{border-right: 2px solid #C5003E}
 
-.bg-Line6{background-color: #842F6A}
-.box-Line6{border: 2px solid #842F6A}
-.num-Line6{border-right: 2px solid #842F6A}
+.bg-Line6{background-color: #80225F}
+.box-Line6{border: 2px solid #80225F}
+.num-Line6{border-right: 2px solid #80225F}
 
-.bg-Line7{background-color: #95D600}
-.box-Line7{border: 2px solid #95D600}
-.num-Line7{border-right: 2px solid #95D600}
+.bg-Line7{background-color: #97D700}
+.box-Line7{border: 2px solid #97D700}
+.num-Line7{border-right: 2px solid #97D700}
 
-.bg-Line8{background-color: #2D9496}
-.box-Line8{border: 2px solid #2D9496}
-.num-Line8{border-right: 2px solid #2D9496}
+.bg-Line8{background-color: #008C95}
+.box-Line8{border: 2px solid #008C95}
+.num-Line8{border-right: 2px solid #008C95}
 
-.bg-Line9{background-color: #6ECB98}
-.box-Line9{border: 2px solid #6ECB98}
-.num-Line9{border-right: 2px solid #6ECB98}
+.bg-Line9{background-color: #71CC98}
+.box-Line9{border: 2px solid #71CC98}
+.num-Line9{border-right: 2px solid #71CC98}
 
-.bg-Line10{background-color: #7E9BC0}
-.box-Line10{border: 2px solid #7E9BC0}
-.num-Line10{border-right: 2px solid #7E9BC0}
+.bg-Line10{background-color: #7D9BC1}
+.box-Line10{border: 2px solid #7D9BC1}
+.num-Line10{border-right: 2px solid #7D9BC1}
 
-.bg-Line11{background-color: #4A0D66}
-.box-Line11{border: 2px solid #4A0D66}
-.num-Line11{border-right: 2px solid #4A0D66}
+.bg-Line11{background-color: #470A68}
+.box-Line11{border: 2px solid #470A68}
+.num-Line11{border-right: 2px solid #470A68}
 
-.bg-Line12{background-color: #5A621C}
-.box-Line12{border: 2px solid #5A621C}
-.num-Line12{border-right: 2px solid #5A621C}
+.bg-Line12{background-color: #59621D}
+.box-Line12{border: 2px solid #59621D}
+.num-Line12{border-right: 2px solid #59621D}
 
-.bg-Line13{background-color: #918C10}
-.box-Line13{border: 2px solid #918C10}
-.num-Line13{border-right: 2px solid #918C10}
+.bg-Line13{background-color: #8E8C13}
+.box-Line13{border: 2px solid #8E8C13}
+.num-Line13{border-right: 2px solid #8E8C13}
 
-.bg-Line14{background-color: #85332D}
-.box-Line14{border: 2px solid #85332D}
-.num-Line14{border-right: 2px solid #85332D}
+.bg-Line14{background-color: #81312F}
+.box-Line14{border: 2px solid #81312F}
+.num-Line14{border-right: 2px solid #81312F}
 
-.bg-Line15{background-color: #999}
-.box-Line15{border: 2px solid #999}
-.num-Line15{border-right: 2px solid #999}
+.bg-Line15{background-color: #AE8A79}
+.box-Line15{border: 2px solid #AE8A79}
+.num-Line15{border-right: 2px solid #AE8A79}
 
-.bg-Line16{background-color: #999}
-.box-Line16{border: 2px solid #999}
-.num-Line16{border-right: 2px solid #999}
+.bg-Line16{background-color: #9E652E}
+.box-Line16{border: 2px solid #9E652E}
+.num-Line16{border-right: 2px solid #9E652E}
 
-.bg-Line17{background-color: #999}
-.box-Line17{border: 2px solid #999}
-.num-Line17{border-right: 2px solid #999}
+.bg-Line17{background-color: #8B84D7}
+.box-Line17{border: 2px solid #8B84D7}
+.num-Line17{border-right: 2px solid #8B84D7}
 
-.bg-Line18{background-color: #D68CC7}
-.box-Line18{border: 2px solid #D68CC7}
-.num-Line18{border-right: 2px solid #D68CC7}
+.bg-Line18{background-color: #D48BC8}
+.box-Line18{border: 2px solid #D48BC8}
+.num-Line18{border-right: 2px solid #D48BC8}
 
-.bg-Line19{background-color: #999}
-.box-Line19{border: 2px solid #999}
-.num-Line19{border-right: 2px solid #999}
+.bg-Line19{background-color: #BB29BB}
+.box-Line19{border: 2px solid #BB29BB}
+.num-Line19{border-right: 2px solid #BB29BB}
 
-.bg-Line20{background-color: #999}
-.box-Line20{border: 2px solid #999}
-.num-Line20{border-right: 2px solid #999}
+.bg-Line20{background-color: #D9017A}
+.box-Line20{border: 2px solid #D9017A}
+.num-Line20{border-right: 2px solid #D9017A}
 
-.bg-Line21{background-color: #211646}
-.box-Line21{border: 2px solid #211646}
-.num-Line21{border-right: 2px solid #211646}
+.bg-Line21{background-color: #201747}
+.box-Line21{border: 2px solid #201747}
+.num-Line21{border-right: 2px solid #201747}
 
-.bg-Line22{background-color: #041E41}
-.box-Line22{border: 2px solid #041E41}
-.num-Line22{border-right: 2px solid #041E41}
+.bg-Line22{background-color: #041E42}
+.box-Line22{border: 2px solid #041E42}
+.num-Line22{border-right: 2px solid #041E42}
 
-.bg-LineGF{background-color: #AECB31}
-.box-LineGF{border: 2px solid #AECB31}
-.num-LineGF{border-right: 2px solid #AECB31}
+.bg-LineGF{background-color: #C4D600}
+.box-LineGF{border: 2px solid #C4D600}
+.num-LineGF{border-right: 2px solid #C4D600}
 
-.bg-LineAPM{background-color: #2B9FBE}
-.box-LineAPM{border: 2px solid #2B9FBE}
-.num-LineAPM{border-right: 2px solid #2B9FBE}
+.bg-LineAPM{background-color: #00B5E2}
+.box-LineAPM{border: 2px solid #00B5E2}
+.num-LineAPM{border-right: 2px solid #00B5E2}
 
 .bg-LineTHZ1{background-color: #3CAABC}
 .box-LineTHZ1{border: 2px solid #3CAABC}
