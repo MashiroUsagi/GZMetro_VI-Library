@@ -14,7 +14,7 @@ Everyone can modified it except for the already existing codes
 引用`gzmtr.css`在你的项目中：
 `<link rel="stylesheet" href="css/gzmtr.css">`
 
-然后请参阅demo.html中的示例。
+然后请参阅index.html的[示例](https://df7c5117.github.io/Guangzhou-Metro-Guidance-System-in-CSS/)。
 
 完了。Enjoy coding！
 
