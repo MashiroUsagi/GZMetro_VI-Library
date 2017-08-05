@@ -23,7 +23,7 @@ Everyone can modified it except for the already existing codes
 <img src="https://raw.githubusercontent.com/df7c5117/Guangzhou-Metro-Guidance-System-in-CSS/master/MAP.jpg" style="width:70%;height:70%">
 
 ### 更新日志
-* 2017-05-20
+* 2017-07-27
 
 1、添加全部路线的颜色方案，~~LoveGZMetro！ Metro Idol Project~~
 
