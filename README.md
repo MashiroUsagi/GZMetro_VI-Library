@@ -1,28 +1,34 @@
 ﻿## Guangzhou Metro Guidance Identity System in CSS
 ## 广州地铁站点导向指引系统（CSS实现版本）
 
-**Latest update：2017.7.27 00:41**
+**Latest update：2017.9.2 23:00**
 
 ©2017 @df7c5117
 
 Everyone can modified it except for the already existing codes
 
-这是一个用CSS来实现的广州地铁现阶段使用的导向指引系统（指2016年升级后的版本）
+这是一个用CSS来实现的广州地铁现阶段使用的导向指引系统（指2016年9月升级后的版本）
 
 ### 食用方式
 
-在你的项目中引用`gzmtr.css`：
-`<link rel="stylesheet" href="css/gzmtr.css">`
+在你的项目中引用`gzmtr.min.css`：
+`<link rel="stylesheet" href="css/gzmtr.min.css">`
 
-然后请参阅index.html的[示例](https://df7c5117.github.io/Guangzhou-Metro-Guidance-System-in-CSS/)。
-
-完了。Enjoy coding！
+然后请参阅index.html的[示例](https://df7c5117.github.io/Guangzhou-Metro-Guidance-System-in-CSS/)进行食用。
 
 ### 附赠地图
 
 <img src="https://raw.githubusercontent.com/df7c5117/Guangzhou-Metro-Guidance-System-in-CSS/master/MAP.jpg" style="width:70%;height:70%">
 
 ### 更新日志
+
+* 2017-09-02
+
+1、增加左对齐的路线标志（beta）
+2、修正站台标志、屏蔽门标志的高度，修正溢出
+3、调整2号线屏蔽门标志颜色，同时对部分描述做了订正
+
+
 * 2017-07-27
 
 1、添加全部路线的颜色方案，~~LoveGZMetro！ Metro Idol Project~~

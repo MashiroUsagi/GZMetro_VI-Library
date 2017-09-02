@@ -1,5 +1,5 @@
 /*==== Guangzhou Metro Guidance Identity System in CSS ====*/
-/*================== Version 1.2 2017/1/17 ================*/
+/*================== Version 2.0 2017/9/2 =================*/
 /*==================== Code By @df7c5117 ==================*/
 /*============== https://github.com/df7c5117 ==============*/
 
@@ -9,7 +9,7 @@
 	border-radius: 0.3em;
 	height: 3em;
 	width: 5em;
-	padding:0.2em;
+	padding: 0.2em;
 }
 .RouteName{
 	color: #fff;
@@ -22,12 +22,17 @@
 .RouteSub{
 	color: #fff;
 	font-size: 0.7em;
-	text-align:center;
+	text-align: center;
 	-webkit-margin-before: 0em;
 }
 .APM{
 	text-align: right
 }
+.Left{
+	text-align: left!important;
+	margin-left: 5px
+}
+
 /*Station Index*/
 .StaNumBox{
 	white-space: nowrap;
@@ -52,8 +57,8 @@
 /*Platform Index*/
 .Platform{
 	display: inline-block;
-	width: 4em;
-	height: 4em;
+	width: 4.5em;
+	height: 4.5em;
 	line-height: 1em;
 	text-align: center;
 	border-radius: 50%;
@@ -85,8 +90,8 @@
 /*Screen Door*/
 .ScrDoor{
 	display: inline-block;
-	width: 4.1em;
-	height: 4.3em;
+	width: 4.3em;
+	height: 4.6em;
 	line-height: 1em;
 	text-align: center;
 	border-radius: 0.5em;
@@ -104,17 +109,18 @@
 	color: #fff;
 	font-size: 0.8em;
 	padding-top: 0.8em;
-	text-align:center;
+	text-align: center;
 	-webkit-margin-before: 0em;
 	-webkit-margin-after: 0em;
 }
 .ScrSubEng{
 	color: #fff;
 	font-size: 0.5em;
-	text-align:center;
+	text-align: center;
 	-webkit-margin-before: -0.2em;
 	-webkit-margin-after: 0em;
 }
+
 /*Color*/
 .bg-Line1{background-color: #F3D03E}
 .box-Line1{border: 2px solid #F3D03E}
@@ -217,8 +223,9 @@
 .num-LineTHZ1{border-right: 2px solid #3CAABC}
 
 .bg-UC{background-color: #999}
-.box-UC{border: 2px solid #999;}
+.box-UC{border: 2px solid #999}
 .num-UC{border-right: 2px solid #999}
-/*Universe*/
+
+/*UniverseColor*/
 .Black{color: #000}
 .White{color: #fff}

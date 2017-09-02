@@ -16,7 +16,7 @@
 </head>
 <body>
 	<div class="navbar">
-		<h2 class="head">广州地铁站点导向指引系统（CSS v1.5）</h2>
+		<h2 class="head">广州地铁站点导向指引系统（CSS v2.0）</h2>
 			<div class="nav">
 				<a href="#Route">路线标志</a>&#12288;&#12288;
 				<a href="#StaNum">车站编号</a>&#12288;&#12288;
@@ -29,9 +29,11 @@
 	</div>
 	<div class="log">
 		<b>更新日志：</b><br>
-		1、修正颜色<br>
+		1、增加左对齐的路线标志（beta）<br>
+		2、修正站台标志、屏蔽门标志的高度，修正溢出<br>
+		3、调整2号线屏蔽门标志颜色，同时对部分描述做了订正<br>
 		<b>目前尚未修复：</b><br>
-		APM线的样式
+		APM线的样式（可能修不好了……）
 	</div>
 	<div id="Route" style="padding-top:50px">
 		<h2>路线标志</h2>
@@ -205,6 +207,175 @@
 				</div>
 			</div>
 		</div>
+		<h3>示例（左对齐）<b>(Beta)</b></h3>
+		<div class="pcs-cont" style="display: inline-block">
+			<div style="display: inline-block;padding-right: 5px">
+					<p class="tipsname">已建成</p>
+					<p class="tipsub">Construction<br>completed</p>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line1" title="广州地铁1号线">
+					<p class="RouteName Left">1号线</p>
+					<p class="RouteSub Left">Line 1</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line2" title="广州地铁2号线">
+					<p class="RouteName Left">2号线</p>
+					<p class="RouteSub Left">Line 2</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line3" title="广州地铁3号线">
+					<p class="RouteName Left">3号线</p>
+					<p class="RouteSub Left">Line 3</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line4" title="广州地铁4号线">
+					<p class="RouteName Left">4号线</p>
+					<p class="RouteSub Left">Line 4</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line5" title="广州地铁5号线">
+					<p class="RouteName Left">5号线</p>
+					<p class="RouteSub Left">Line 5</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line6" title="广州地铁6号线">
+					<p class="RouteName Left">6号线</p>
+					<p class="RouteSub Left">Line 6</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line7" title="广州地铁7号线">
+					<p class="RouteName Left">7号线</p>
+					<p class="RouteSub Left">Line 7</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line8" title="广州地铁8号线">
+					<p class="RouteName Left">8号线</p>
+					<p class="RouteSub Left">Line 8</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-LineGF" title="广佛地铁">
+					<p class="RouteName">广佛线</p>
+					<p class="RouteSub">Guangfo Line</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-LineAPM" title="珠江新城旅客自动输送系统">
+					<p class="RouteName">APM线</p>
+					<p class="RouteSub APM">Line</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 5px">
+					<p class="tipsname">未建成</p>
+					<p class="tipsub">Under<br>construction</p>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line9" title="广州地铁9号线">
+					<p class="RouteName Left">9号线</p>
+					<p class="RouteSub Left">Line 9</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line10" title="广州地铁10号线">
+					<p class="RouteName Left">10号线</p>
+					<p class="RouteSub Left">Line 10</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line11" title="广州地铁11号线">
+					<p class="RouteName Left">11号线</p>
+					<p class="RouteSub Left">Line 11</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line12" title="广州地铁12号线">
+					<p class="RouteName Left">12号线</p>
+					<p class="RouteSub Left">Line 12</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line13" title="广州地铁13号线">
+					<p class="RouteName Left">13号线</p>
+					<p class="RouteSub Left">Line 13</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line14" title="广州地铁14号线">
+					<p class="RouteName Left">14号线</p>
+					<p class="RouteSub Left">Line 14</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line15" title="广州地铁15号线">
+					<p class="RouteName Left">15号线</p>
+					<p class="RouteSub Left">Line 15</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line16" title="广州地铁16号线">
+					<p class="RouteName Left">16号线</p>
+					<p class="RouteSub Left">Line 16</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line17" title="广州地铁17号线">
+					<p class="RouteName Left">17号线</p>
+					<p class="RouteSub Left">Line 17</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line18" title="广州地铁18号线">
+					<p class="RouteName Left">18号线</p>
+					<p class="RouteSub Left">Line 18</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line19" title="广州地铁19号线">
+					<p class="RouteName Left">19号线</p>
+					<p class="RouteSub Left">Line 19</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line20" title="广州地铁20号线">
+					<p class="RouteName Left">20号线</p>
+					<p class="RouteSub Left">Line 20</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line21" title="广州地铁21号线">
+					<p class="RouteName Left">21号线</p>
+					<p class="RouteSub Left">Line 21</p>
+				</div>
+			</div>
+
+			<div style="display: inline-block;padding-right: 5px">
+				<div class="Route bg-Line22" title="广州地铁22号线">
+					<p class="RouteName Left">22号线</p>
+					<p class="RouteSub Left">Line 22</p>
+				</div>
+			</div>
+		</div>
 
 			<h3>食用方式</h3>
 			<pre style="border-radius: 0.3em;background-color: #eee;padding:5px">
@@ -213,7 +384,7 @@
 	&lt;p class="RouteSub"&gt;<b>线路英文名</b>&lt;/p&gt;
 &lt;/div&gt;
 
-提示：1号线的导向指示牌有黑字和白字两种形式，而一般来讲，线路图上的3号线为黑字，而屏蔽门和导向牌上的为白字。
+提示：1号线/3号线的导向指示牌有黑字和白字两种形式，而一般来讲，<b>线路图上的为黑字，而导向牌上的为白字。</b>另外，<b>线路图上的为居中对齐，而导向牌上的为左对齐。（广佛线、APM线除外，主要是因为这两者的样式存在bug）</b>
       当线路名称为APM时，请使用&lt;p class="RouteSub APM"&gt;<b>Line</b>&lt;/p&gt;
       当线路背景为浅色时，请使用&lt;p class="RouteName Black"&gt;<b>线路中文名</b>&lt;/p&gt; &lt;p class="RouteSub Black"&gt;<b>线路英文名</b>&lt;/p&gt;
 			</pre>
@@ -711,10 +882,10 @@
 				</div>
 			</div>
 			<div style="display: inline-block;padding-right: 10px">
-				<div class="ScrDoor bg-Line2" title="2号屏蔽门">
-					<p class="ScrName">2</p>
-					<p class="ScrSubChs">屏蔽门</p>
-					<p class="ScrSubEng">ScreenDoor</p>
+				<div class="ScrDoor bg-UC" title="2号屏蔽门">
+					<p class="ScrName Black">2</p>
+					<p class="ScrSubChs Black">屏蔽门</p>
+					<p class="ScrSubEng Black">ScreenDoor</p>
 				</div>
 			</div>
 			<div style="display: inline-block;padding-right: 10px">
@@ -881,6 +1052,7 @@
 &lt;/div&gt;
 
 提示：当线路背景为浅色时，请使用&lt;p class="ScrName Black"&gt;<b>屏蔽门编号</b>&lt;/p&gt; &lt;p class="ScrSubChs Black"&gt;屏蔽门&lt;/p&gt; &lt;p class="ScrSubEng Black"&gt;ScreenDoor&lt;/p&gt;
+      请注意：2号线屏蔽门标志底色是银色。你可以使用<b>bg-UC</b>这个类名(色号为#999)代替。
 			</pre>
 	</div>
 	<div id="Color" style="padding-top:50px ">
