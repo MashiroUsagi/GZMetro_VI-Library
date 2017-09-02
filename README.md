@@ -25,7 +25,9 @@ Everyone can modified it except for the already existing codes
 * 2017-09-02
 
 1、增加左对齐的路线标志（beta）
+
 2、修正站台标志、屏蔽门标志的高度，修正溢出
+
 3、调整2号线屏蔽门标志颜色，同时对部分描述做了订正
 
 
@@ -47,6 +49,7 @@ Everyone can modified it except for the already existing codes
 * 2017-01-20
 
 1、解决了部分移动端设备显示字体不正常的问题（CM12.1测试有效）
+
 2、修正车站编号的样式
 
 目前尚未修复：
