@@ -1,5 +1,5 @@
 /*==== Guangzhou Metro Guidance Identity System in CSS ====*/
-/*================== Version 2.0 2017/9/2 =================*/
+/*================= Version 2.1 2017/11/26 ================*/
 /*==================== Code By @df7c5117 ==================*/
 /*============== https://github.com/df7c5117 ==============*/
 
@@ -218,9 +218,9 @@
 .box-LineAPM{border: 2px solid #00B5E2}
 .num-LineAPM{border-right: 2px solid #00B5E2}
 
-.bg-LineTHZ1{background-color: #3CAABC}
-.box-LineTHZ1{border: 2px solid #3CAABC}
-.num-LineTHZ1{border-right: 2px solid #3CAABC}
+.bg-LineTHZ1{background-color: #44A729}
+.box-LineTHZ1{border: 2px solid #44A729}
+.num-LineTHZ1{border-right: 2px solid #44A729}
 
 .bg-UC{background-color: #999}
 .box-UC{border: 2px solid #999}
