@@ -356,11 +356,8 @@
 	&lt;p class="RouteSub"&gt;<b>线路英文名</b>&lt;/p&gt;
 &lt;/div&gt;
 
-<<<<<<< HEAD
+
 提示：3号线导向指示牌有黑字和白字两种形式，而一般来讲，<b>线路图上的为黑字，而导向牌上的为白字。</b>另外，<b>线路图上的为居中对齐，而导向牌上的为左对齐。（广佛线、APM线可以不按照该规则）</b>
-=======
-提示：3号线的导向指示牌有黑字和白字两种形式，而一般来讲，<b>线路图上的为黑字，而导向牌上的为白字。</b>另外，<b>线路图上的为居中对齐，而导向牌上的为左对齐。（广佛线、APM线除外，主要是因为这两者的样式存在bug）</b>
->>>>>>> e7305c20061e5bec9e5a1e3f2d9f0dbf4cebc026
       当线路名称为APM时，请使用&lt;p class="RouteSub APM"&gt;<b>Line</b>&lt;/p&gt;
       当线路背景为浅色时，请使用&lt;p class="RouteName Black"&gt;<b>线路中文名</b>&lt;/p&gt; &lt;p class="RouteSub Black"&gt;<b>线路英文名</b>&lt;/p&gt;
 			</pre>
@@ -877,6 +874,13 @@
 				</div>
 			</div>
 			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line2" title="2号屏蔽门">
+					<p class="ScrName">2</p>
+					<p class="ScrSubChs">屏蔽门</p>
+					<p class="ScrSubEng">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
 				<div class="ScrDoor bg-Line3" title="3号屏蔽门">
 					<p class="ScrName Black">3</p>
 					<p class="ScrSubChs Black">屏蔽门</p>
@@ -898,8 +902,15 @@
 				</div>
 			</div>
 			<div style="display: inline-block;padding-right: 10px">
-				<div class="ScrDoor bg-Line6" title="2号屏蔽门">
-					<p class="ScrName">2</p>
+				<div class="ScrDoor bg-UC" title="2号屏蔽门">
+					<p class="ScrName Black">2</p>
+					<p class="ScrSubChs Black">屏蔽门</p>
+					<p class="ScrSubEng Black">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line6" title="6号屏蔽门">
+					<p class="ScrName">6</p>
 					<p class="ScrSubChs">屏蔽门</p>
 					<p class="ScrSubEng">ScreenDoor</p>
 				</div>
@@ -912,8 +923,15 @@
 				</div>
 			</div>
 			<div style="display: inline-block;padding-right: 10px">
-				<div class="ScrDoor bg-Line8" title="4号屏蔽门">
-					<p class="ScrName">4</p>
+				<div class="ScrDoor bg-UC" title="4号屏蔽门">
+					<p class="ScrName Black">4</p>
+					<p class="ScrSubChs Black">屏蔽门</p>
+					<p class="ScrSubEng Black">ScreenDoor</p>
+				</div>
+			</div>
+			<div style="display: inline-block;padding-right: 10px">
+				<div class="ScrDoor bg-Line8" title="8号屏蔽门">
+					<p class="ScrName">8</p>
 					<p class="ScrSubChs">屏蔽门</p>
 					<p class="ScrSubEng">ScreenDoor</p>
 				</div>
@@ -1044,7 +1062,7 @@
 &lt;/div&gt;
 
 提示：当线路背景为浅色时，请使用&lt;p class="ScrName Black"&gt;<b>屏蔽门编号</b>&lt;/p&gt; &lt;p class="ScrSubChs Black"&gt;屏蔽门&lt;/p&gt; &lt;p class="ScrSubEng Black"&gt;ScreenDoor&lt;/p&gt;
-      请注意：2号线屏蔽门标志底色是银色。你可以使用<b>bg-UC</b>这个类名(色号为#999)代替。
+      请注意：2/6/8号线屏蔽门标志底色是银色。你可以使用<b>bg-UC</b>这个类名(色号为#999)代替。
 			</pre>
 	</div>
 	<div id="Color" style="padding-top:50px ">

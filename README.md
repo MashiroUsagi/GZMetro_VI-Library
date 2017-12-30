@@ -1,9 +1,9 @@
-﻿## Guangzhou Metro Guidance Identity System in CSS
-## 广州地铁站点导向指引系统（CSS实现版本）
+﻿## Guangzhou Metro VI Library
+## 广州地铁站点导向指引系统CSS VI样式库
 
-**Latest update：2017.11.26 13:40**
+**Latest update：2017.12.30 20:20**
 
-©2017 @df7c5117
+©2018 @df7c5117
 
 Everyone can modified it except for the already existing codes
 
@@ -14,13 +14,18 @@ Everyone can modified it except for the already existing codes
 在你的项目中引用`gzmtr.min.css`：
 `<link rel="stylesheet" href="css/gzmtr.min.css">`
 
-然后请参阅index.html的[示例](https://df7c5117.github.io/Guangzhou-Metro-Guidance-System-in-CSS/)进行食用。
+然后请参阅index.html的[文档](https://df7c5117.github.io/Guangzhou-Metro-Guidance-System-in-CSS/)进行食用。
 
 ### 附赠地图
 
 <img src="https://raw.githubusercontent.com/df7c5117/Guangzhou-Metro-Guidance-System-in-CSS/master/MAP.jpg" style="width:70%;height:70%">
 
 ### 更新日志
+
+* 2017-12-30
+
+1、局部修改
+
 
 * 2017-11-26
 
