@@ -14,7 +14,7 @@ Everyone can modified it except for the already existing codes
 在你的项目中引用`gzmtr.min.css`：
 `<link rel="stylesheet" href="css/gzmtr.min.css">`
 
-然后请参阅index.html的[文档](https://github.com/df7c5117/GZMetro_VI-Library)进行食用。
+然后请参阅index.html的[文档](https://df7c5117.github.io/GZMetro_VI-Library)进行食用。
 
 ### 附赠地图
 
